@@ -8,7 +8,7 @@
 
 如果您对“表格+LLM”感兴趣，欢迎您加入本项目的微信群，和更多志同道合的研究者进行讨论交流。
 
-**通知**：为了方便研究者同时获取“Alpaca训练代码”+“表格数据”，本项目也迁移到了Alpaca-CoT项目下的[tabular_llm](https://github.com/PhoebusSi/Alpaca-CoT/tree/tabular_llm)分支。如果您已有自己的训练脚本，只需要不同表格智能任务的训练数据，那么只关注本项目即可，我们会维护两个项目的同步更新。
+**通知**：为了方便研究者同时获取“LLM训练代码”+“表格数据”，本项目也迁移到了Alpaca-CoT项目下的[tabular_llm](https://github.com/PhoebusSi/Alpaca-CoT/tree/tabular_llm)分支。如果您已有自己的训练脚本，只需要不同表格智能任务的训练数据，那么只关注本项目即可，我们会维护两个项目的同步更新。
 
 ## News
 
