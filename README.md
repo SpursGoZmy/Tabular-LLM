@@ -10,6 +10,8 @@
 
 **通知**：为了方便研究者同时获取“开源LLM训练代码”+“表格数据”，**本项目迁移到了Alpaca-CoT项目下的[tabular_llm](https://github.com/PhoebusSi/Alpaca-CoT/tree/tabular_llm)分支，请优先关注该分支以获取最新更新内容**，我们会尽力维护两个项目的同步更新。
 
+我们也在维护一份持续更新的[“LLM+表格”论文列表](https://github.com/SpursGoZmy/Awesome-Tabular-LLMs)以及综述。
+
 后续章节的主要内容如下：
 - [第0节](#0-背景)和[第1节](#1-动机)分别介绍项目提出的背景和动机。
 - [第2节](#2-表格的表示方法)讨论表格的表示方法。
