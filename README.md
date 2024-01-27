@@ -1,6 +1,6 @@
 # Tabular LLM：构建面向表格智能任务的大型语言模型
 
-<img src="./tabular_llm_figures/wechat_QRcode.jpg" width = "200" height = "300" align=right />
+<img src="./tabular_llm_figures/wechat_QRcode.jpg" width = "200" height = "200" align=right />
 
 本项目基于[**Alpaca-CoT项目**](https://github.com/PhoebusSi/Alpaca-CoT)（一个多接口统一的轻量级LLM指令微调平台），目标是广泛收集开源的表格智能任务数据集（比如表格问答、表格-文本生成等），然后将【原始任务数据】整理为【指令微调格式的数据】并基于Alpaca-CoT项目微调相应的LLM，进而增强LLM对于表格数据的理解，最终构建出专门面向表格智能任务的大型语言模型。
 
