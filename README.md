@@ -131,18 +131,18 @@ ChatGPT、文心一言等模型目前应该是采用Markdown格式来表示表�
 ```python
 [
 {
-    'item_id': 样本id
-    'input': 输入字符串,包括任务指令和任务输入 # 对于一个数据集，通过构建多种指令模板确保输入内容的多样性，而不再是固定指令模板。
+    'item_id': 样本id,
+    'input': 输入字符串,包括任务指令和任务输入, # 对于一个数据集，通过构建多种指令模板确保输入内容的多样性，而不再是固定指令模板。
     'output': 输出字符串, # 模型输出，如果原始数据集提供了CoT过程，则输出中同样包含CoT。
-    'table_rows': 表格单元格构成的嵌套列表  # 每行单元格对应一个列表，各行再组成一个列表，形如 [[单元格1，单元格2],[单元格3，单元格4]]
-    'table_title': 表格标题 # 如果原始数据集未提供表格标题，则该字段为空字符串。
-    'table_repr': 表格对应的文本序列表示 # 比如Markdown格式、HTML格式的表格表示。
-    'table_repr_type': 文本序列表示格式 # 比如Markdown、HTML。
-    'ori_query': 原始样本对应的query # 比如表格问答样本的原始问题、表格事实验证样本的原始陈述（statement）
-    'answer_list': 答案列表 # 由原始答案组成的列表，便于计算准确率，评估模型效果。
+    'table_rows': 表格单元格构成的嵌套列表,  # 每行单元格对应一个列表，各行再组成一个列表，形如 [[单元格1，单元格2],[单元格3，单元格4]]
+    'table_title': 表格标题, # 如果原始数据集未提供表格标题，则该字段为空字符串。
+    'table_repr': 表格对应的文本序列表示, # 比如Markdown格式、HTML格式的表格表示。
+    'table_repr_type': 文本序列表示格式, # 比如Markdown、HTML。
+    'ori_query': 原始样本对应的query, # 比如表格问答样本的原始问题、表格事实验证样本的原始陈述（statement）
+    'answer_list': 答案列表, # 由原始答案组成的列表，便于计算准确率，评估模型效果。
     'table_type': 表格类型, # vertical:垂直表格; horizontal:水平表格; hierarchical:层级表格; complex:复杂表格 
     'task_type': 任务类型, # 比如TQA:表格问答, TFV:表格事实验证
-    'dataset_name': 原始数据集名称 # 比如WikiSQL
+    'dataset_name': 原始数据集名称, # 比如WikiSQL
 }
 ]
 ```
@@ -153,7 +153,7 @@ ChatGPT、文心一言等模型目前应该是采用Markdown格式来表示表�
 ```python
 [
 {
-    'instruction': 任务指令 # 不同的表格智能任务对应的指令可能不同
+    'instruction': 任务指令, # 不同的表格智能任务对应的指令可能不同
     'input': 输入字符串, # 基于问题、表格、表格标题等信息构造的格式化输入，
     			# 对于不同的数据集，input中包含的信息可能不同，比如Table-Text QA数据集的input中还包含与表格相关的文本段落。
 			# 以表格问答为例，输入的构造方式为:
