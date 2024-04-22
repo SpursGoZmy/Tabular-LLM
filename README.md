@@ -280,6 +280,7 @@ output为：
 本节列举一些国内外已有的表格智能产品，供研究人员参考，也欢迎大家随时补充。
 | 产品 | 团队/公司 | 推出时间 | 介绍 | 优缺点 |
 | --- | --- | --- | --- | --- |
+| [TableAgent](https://tableagent.datacanvas.com/) | 九章云极 | 2023年 | 基于DataCanvas Alaya九章元识大模型构建的数据分析智能体，支持用户上传csv表格进行数据分析、问答等。 | 尚未试用  |
 | [Tableau AI](https://www.tableau.com/products/tableau-ai) | Tableau (Salesforce) | 2023年 | 作为代表性商业智能软件，Tableau也推出了生成式AI加持的BI（Business Intelligence）助手，可以自动分析、描述、解读用户数据。 | 尚未试用  |
 | [ChatExcel](https://chatexcel.com/) | 北大 | 2023年2月 | 一个能够便捷人对 Excel 复杂操作的智能助手，用户上传Excel表格，然后用自然语言描述自己的需求，比如“求每行数据的平均值作为新增的一列”，ChatExcel可以对表格进行自动处理，返回更新后的表格以满足用户需求。更多信息可以参考项目核心成员撰写的[知乎回答](https://www.zhihu.com/question/586673687/answer/2914537074)。| 对复杂需求的语义理解有待增强，不知道背后有没有接大模型hhh，目前似乎只支持最简单的垂直表格，无法处理合并单元格。 |
 | [Microsoft 365 Copilot](https://www.microsoft.com/en-us/microsoft-365/blog/2023/03/16/introducing-microsoft-365-copilot-a-whole-new-way-to-work/) | 微软 | 2023年3月16日 | 作为OpenAI的重要资助者，微软的office产品势必与GPT-4相结合。具体到Excel上，Copilot可以与用户进行自然语言的交互，帮助用户分析表格数据并自动创建可视化图表，甚至是创建新的工作表，比如可以向Copilot提出需求“分析本季度的销售状况并总结3个关键业务趋势”，“详细展示某个客户的销售业绩情况”。更多信息可以参考[知乎话题](https://www.zhihu.com/question/590269908/answer/2948688426?utm_id=0)。 | 如果说ChatExcel针对是Excel的基本函数操作，Copilot in Excel看上去希望更进一步，承担更高阶的分析能力，就像有个助手帮你分析Excel表格，画出精美的图表。不过官方的演示示例使用的也是标准的垂直表格，不知道对于更复杂表格的支持情况如何。 |
